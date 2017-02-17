@@ -63,6 +63,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .content > p {
+              color: black;
+              font-size: 24px;
+            }
         </style>
         @section('content')
     </head>
@@ -74,8 +78,10 @@
             </div>
         </div>
         <div class="content">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/kI5FYpwZMXU" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
+          
+          <p>welkom, met deze Laravel applicatie maak ik opdrachten.</p>
+          <p>Het is niet aan te raden om deze code te gebruiken! </p>
+
 </div>
     </body>
 </html>

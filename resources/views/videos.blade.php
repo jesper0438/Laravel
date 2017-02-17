@@ -12,12 +12,23 @@
 .content{
   text-align: center;
 }
+.m-b-md {
+    margin-bottom: 30px;
+}
 </style>
+@section('content')
 </head>
 <body>
+  <div class="content">
+      <div class="title m-b-md">
+          Filmpjes....
+      </div>
+  </div>
+
 <div class="content">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/kI5FYpwZMXU" frameborder="0" allowfullscreen></iframe>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
 </div>
 </body>
+</html>
 @endsection('content')
