@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 @extends('layouts.app')
+
 <html lang="{{ config('app.locale') }}">
     <head>
         <meta charset="utf-8">
@@ -69,7 +70,7 @@
     <body>
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    About
                 </div>
             </div>
         </div>
@@ -77,6 +78,6 @@
 <iframe width="420" height="315" src="https://www.youtube.com/embed/kI5FYpwZMXU" frameborder="0" allowfullscreen></iframe>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
 </div>
+@endsection
     </body>
 </html>
-@endsection('content')
