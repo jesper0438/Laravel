@@ -20,6 +20,12 @@ Route::get('about', function () {
 Route::get('videos', function () {
     return view('videos');
 });
+Route::get('register', function () {
+    return view('register');
+});
+Route::get('menu', function () {
+    return view('menu');
+});
 
 Auth::routes();
 
