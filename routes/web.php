@@ -30,3 +30,4 @@ Route::get('menu', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::resource ( 'tasks', 'TasksController');
