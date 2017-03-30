@@ -106,7 +106,7 @@
     <td>john@example.com</td>
   </tr>
   <tr class="danger">
-    <td>Danger</td>
+    <td>test</td>
     <td>Moe</td>
     <td>mary@example.com</td>
   </tr>
