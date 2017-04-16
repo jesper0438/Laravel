@@ -84,7 +84,7 @@
 <body>
 
 <div class="container">
-<h2>Contextual Classes</h2>
+<h2>Dit is een test voor heroku</h2>
 <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
 <table class="table">
 <thead>
